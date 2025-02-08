@@ -27,14 +27,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase
     // }
 const firebaseConfig = {
     //   copy your firebase config informations
-    apiKey: "AIzaSyB0h73QzPXx73nd0CCkU2DDzvpCXQQWR7o",
-    authDomain: "sams-108.firebaseapp.com",
-    databaseURL: "https://sams-108-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "sams-108",
-    storageBucket: "sams-108.appspot.com",
-    messagingSenderId: "654794623274",
-    appId: "1:654794623274:web:1e60b892398b17c4d5b653",
-    measurementId: "G-W1H18SQ73B"
+    // apiKey: string;
+    //     authDomain: string;
+    //     databaseURL: string;
+    //     projectId: string;
+    //     storageBucket: string;
+    //     messagingSenderId: string;
+    //     appId: string;
     };
 
 
@@ -97,7 +96,7 @@ function generatePDF() {
 var element = document.getElementById('table');
 var opt = {
 margin:       1,
-filename:     'AdminCIE.pdf',
+filename:     'ECG_Report.pdf',
 image:        { type: 'jpeg', quality: 0.98 },
 html2canvas:  { scale: 2 },
 jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
